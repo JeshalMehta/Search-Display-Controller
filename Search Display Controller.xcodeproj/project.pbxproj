@@ -15,6 +15,7 @@
 		123547191D4F194A0040A693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123547171D4F194A0040A693 /* LaunchScreen.storyboard */; };
 		123547241D4F194A0040A693 /* Search_Display_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123547231D4F194A0040A693 /* Search_Display_ControllerTests.swift */; };
 		1235472F1D4F194A0040A693 /* Search_Display_ControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235472E1D4F194A0040A693 /* Search_Display_ControllerUITests.swift */; };
+		1235473D1D4F27360040A693 /* FriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235473C1D4F27360040A693 /* FriendItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1235472A1D4F194A0040A693 /* Search Display ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Search Display ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1235472E1D4F194A0040A693 /* Search_Display_ControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Display_ControllerUITests.swift; sourceTree = "<group>"; };
 		123547301D4F194A0040A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1235473C1D4F27360040A693 /* FriendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendItem.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1235470B1D4F194A0040A693 /* AppDelegate.swift */,
 				1235470D1D4F194A0040A693 /* ViewController.swift */,
+				1235473C1D4F27360040A693 /* FriendItem.swift */,
 				1235470F1D4F194A0040A693 /* Main.storyboard */,
 				123547151D4F194A0040A693 /* Assets.xcassets */,
 				123547171D4F194A0040A693 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				123547141D4F194A0040A693 /* Search_Display_Controller.xcdatamodeld in Sources */,
 				1235470E1D4F194A0040A693 /* ViewController.swift in Sources */,
+				1235473D1D4F27360040A693 /* FriendItem.swift in Sources */,
 				1235470C1D4F194A0040A693 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				123547351D4F194A0040A693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123547361D4F194A0040A693 /* Build configuration list for PBXNativeTarget "Search Display ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				123547381D4F194A0040A693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123547391D4F194A0040A693 /* Build configuration list for PBXNativeTarget "Search Display ControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				1235473B1D4F194A0040A693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
